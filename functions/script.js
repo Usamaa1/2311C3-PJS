@@ -72,33 +72,33 @@
 // ********* CALLBACK FUNCTIONS *********
 
 
-function post1(call)
-{
-    setTimeout(()=>{
-        console.log('Post 1 appeared')
-        call();
-    },6000)
-}
-function post2(call)
-{
-    setTimeout(()=>{
-        console.log('Post 2 appeared')
-        call();
-    },2000)
-}
-function post3(call)
-{
-    setTimeout(()=>{
-        console.log('Post 3 appeared')
-        call();
-    },5000)
-}
-function post4()
-{
-    setTimeout(()=>{
-        console.log('Post 4 appeared')
-    },4000)
-}
+// function post1(call)
+// {
+//     setTimeout(()=>{
+//         console.log('Post 1 appeared')
+//         call();
+//     },6000)
+// }
+// function post2(call)
+// {
+//     setTimeout(()=>{
+//         console.log('Post 2 appeared')
+//         call();
+//     },2000)
+// }
+// function post3(call)
+// {
+//     setTimeout(()=>{
+//         console.log('Post 3 appeared')
+//         call();
+//     },5000)
+// }
+// function post4()
+// {
+//     setTimeout(()=>{
+//         console.log('Post 4 appeared')
+//     },4000)
+// }
 
 
 // post1();
@@ -106,13 +106,103 @@ function post4()
 // post3();
 // post4();
 
-post1(()=>{
-    post2(()=>{
-        post3(()=>{
-            post4()
-        })
-    })
-})
+// post1(()=>{
+//     post2(()=>{
+//         post3(()=>{
+//             post4()
+//         })
+//     })
+// })
+
+
+
+
+
+// function post1(a)
+// {
+//     setTimeout(()=>{
+//         console.log('Post 1 appeared')
+//         a();
+//     },7000);
+// }
+
+// function post2(b)
+// {
+//     setTimeout(()=>{
+//         console.log('Post 2 appeared')
+//         b();
+//     },4000);
+// }
+
+// function post3(a)
+// {
+//     setTimeout(()=>{
+//         console.log('Post 3 appeared')
+//         a();
+//     },5000);
+// }
+
+// function post4(call)
+// {
+//     setTimeout(()=>{
+//         console.log('Post 4 appeared')
+//         call();
+//     },8000);
+// }
+
+// function post5()
+// {
+//     setTimeout(()=>{
+//         console.log('Post 5 appeared')
+     
+//     },3000);
+// }
+
+
+
+// post1();
+// post2();
+// post3();
+// post4();
+// post5();
+
+
+// post1(()=>{
+//     post2(()=>{
+//         post3(()=>{
+//             post4(()=>{
+//                 post5()
+//             })
+//         })
+//     })
+// })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
